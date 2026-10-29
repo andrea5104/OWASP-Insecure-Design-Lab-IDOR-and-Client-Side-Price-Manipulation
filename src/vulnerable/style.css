@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center-container, .main-content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.centered-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.order-details-container {
+    text-align: left;
+    display: inline-block;
+}
+
+.user-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2em;
+    color: rgb(255, 215, 0);
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    color: rgb(255, 215, 0);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 0;
+    text-align: center;
+}
+
+p[style='color:red;'] {
+    color: rgb(240, 52, 52) !important;
+    font-weight: bold;
+}
+
+p[style='color:green;'] {
+    color: rgb(76, 175, 80) !important;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(255, 215, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(255, 165, 0);
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(255, 215, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(70, 70, 70);
+    color: rgb(255, 215, 0);
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 215, 0);
+    background-color: rgb(70, 70, 70);
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+input[type="submit"], .login-btn {
+    background-color: rgb(255, 165, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, .login-btn:hover {
+    background-color: rgb(255, 140, 0);
+}
+
+hr {
+    border-color: rgb(255, 215, 0);
+    width: 50%;
+    margin: 30px auto;
+}
